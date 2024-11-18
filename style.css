@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding-top: 80px; /* Leave space for the fixed header */
+}
+
+header {
+    width: 100%;
+    background-color: #007bff;
+    padding: 20px;
+    text-align: center; /* Center-aligns the content within the header */
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure it's always on top */
+}
+
+header h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center-aligns the content within the container */
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+h3 {
+    margin: 15px 0; /* Space above and below the heading */
+    color: #555; /* Color for Possible Medicine Matches heading */
+    text-align: left; /* Align text to the left */
+}
+
+ul {
+    list-style-type: none; /* Remove bullets from list */
+    padding: 0;
+    text-align: left; /* Align text to the left within the list */
+}
+
+ul li {
+    margin: 10px 0; /* Space between list items */
+}
+
+ul li a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make links bold */
+    transition: color 0.3s ease; /* Transition effect for link color */
+}
+
+ul li a:hover {
+    color: #0056b3; /* Change link color on hover */
+}
+
+.button-group {
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}

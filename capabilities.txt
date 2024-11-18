@@ -1,0 +1,12 @@
+recognizes text
+have dataset
+gives or returns the list of medicines after recognition
+unable to fetch records after clicking on an item (will be solved soon)
+
+needs fine tuning in matching algo.
+
+needs more medicines in datasets.
+
+needs the css to look proper
+
+needs a search bar to manually search for medicines.
